@@ -117526,7 +117526,7 @@ var JioKaiAds = function () {
     key: 'showAds',
     value: function () {
       function showAds(containerCfg) {
-        if (navigator.connection && ('wifi' === navigator.connection.type || 'cellular' === navigator.connection.type)) {
+        if (true) {
           var timeout = setTimeout(function () {
             var frame = document.getElementById('iframe-ads');
             if (frame) {
