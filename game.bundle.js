@@ -117529,7 +117529,7 @@ var JioKaiAds = function () {
         if (true) {
           var ifrm = document.createElement('iframe');
           ifrm.setAttribute('id', 'iframe-ads');
-          ifrm.setAttribute('style', 'b order: none;');
+          ifrm.setAttribute('style', 'border: none;');
           document.getElementById(this.adsWrapperId).appendChild(ifrm);
           var kaiJioAds = KaiDisplayAdsSdk('iframe-ads');
           kaiJioAds.init({
